@@ -47,7 +47,7 @@ module.exports = {
                     .addField("\u200b", `\u200b`, true)
                     .addField("💻 Platform", `\`\`${os.platform()}\`\``, true)
                     .addField("API Latency", `\`${client.ws.ping}ms\``, true)
-                    .setFooter("Coded by:    Tomato#6966");
+                    .setFooter("Coded by:    @Prasid#6644");
                 message.channel.send(botinfo);
             })
         } catch (e) {
@@ -61,12 +61,4 @@ module.exports = {
         }
     },
 };
-/**
- * @INFO
- * Bot Coded by Tomato#6966 | https://github.com/Tomato6966/discord-js-lavalink-Music-Bot-erela-js
- * @INFO
- * Work for Milrato Development | https://milrato.eu
- * @INFO
- * Please mention Him / Milrato Development, when using this Code!
- * @INFO
- */
+//

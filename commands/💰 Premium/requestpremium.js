@@ -38,7 +38,7 @@ module.exports = {
                     try {
                       let id = collected.first().content;
                       let guild = client.guilds.cache.get(id);
-                      if (!guild) return message.channel.send("sorry i cant find that guild please make sure i am in there! or DM: `Tomato#6966`");
+                      if (!guild) return message.channel.send("sorry i cant find that guild please make sure i am in there!`");
                       databasing(client, id)
                       if (client.premium.get(id, "enabled")) return message.channel.send("This Server is alreayd a Premium Member!")
                       for (let i = 0; i < config.ownerIDS.length; i++) {
@@ -52,7 +52,7 @@ module.exports = {
                       message.channel.send(`${emoji.msg.SUCCESS} Successfully applied as a Premium GUILD for: \`` + guild.name + "`\nPlease wait..")
                     } catch (e) {
                       console.log(String(e.stack).red)
-                      return message.channel.send("sorry i cant find that guild please make sure i am in there! or DM: `Tomato#6966`");
+                      return message.channel.send("sorry i cant find that guild please make sure i am in there!");
                     }
                   }).catch(e => {
                     console.log(String(e.stack).red)
@@ -68,7 +68,7 @@ module.exports = {
               try {
                 let id = message.author.id;
                 let user = await client.users.fetch(id);
-                if (!user) return message.channel.send("sorry i cant find you make sure I am in a guild with you! or DM: `Tomato#6966`");
+                if (!user) return message.channel.send("sorry i cant find you make sure I am in a guild with you!");
                 databasing(client, "", id)
                 if (client.premium.get(id, "enabled")) return message.channel.send("You are already a Premium Member!")
                 for (let i = 0; i < config.ownerIDS.length; i++) {
@@ -82,7 +82,7 @@ module.exports = {
                 message.channel.send(`${emoji.msg.SUCCESS} Successfully applied as a Premium USER!\nPlease wait..`)
               } catch (e) {
                 console.log(String(e.stack).red)
-                return message.channel.send("sorry i cant find you make sure I am in a guild with you! or DM: `Tomato#6966`");
+                return message.channel.send("sorry i cant find you make sure I am in a guild with you!");
               }
             }
           }).catch(e => {
@@ -101,12 +101,4 @@ module.exports = {
     }
   }
 };
-/**
- * @INFO
- * Bot Coded by Tomato#6966 | https://github.com/Tomato6966/discord-js-lavalink-Music-Bot-erela-js
- * @INFO
- * Work for Milrato Development | https://milrato.eu
- * @INFO
- * Please mention Him / Milrato Development, when using this Code!
- * @INFO
- */
+//

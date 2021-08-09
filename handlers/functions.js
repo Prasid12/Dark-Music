@@ -8,16 +8,7 @@ const ee = require("../botconfig/embed.json");
 const radios = require("../botconfig/radiostations.json");
 const ms = require("ms")
 
-/**
- * @INFO
- * Bot Coded by Tomato#6966 | https://github.com/Tomato6966/discord-js-lavalink-Music-Bot-erela-js
- * @INFO
- * Work for Milrato Development | https://milrato.eu
- * @INFO
- * Please mention Him / Milrato Development, when using this Code!
- * @INFO
- */
-
+//
  module.exports.getMember = getMember 
  module.exports.shuffle = shuffle;
  module.exports.formatDate = formatDate;
@@ -805,12 +796,4 @@ async function swap_pages2(client, message, embeds) {
 
 }
 
-/**
- * @INFO
- * Bot Coded by Tomato#6966 | https://github.com/Tomato6966/discord-js-lavalink-Music-Bot-erela-js
- * @INFO
- * Work for Milrato Development | https://milrato.eu
- * @INFO
- * Please mention Him / Milrato Development, when using this Code!
- * @INFO
- */
+//
