@@ -245,3 +245,11 @@ com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Unknown file format.
 2021-08-09 21:24:41.898  INFO 46982 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
 2021-08-09 21:24:45.594  INFO 46982 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:52384
 2021-08-09 21:24:45.597  INFO 46982 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:52384
+2021-08-09 21:33:59.907  INFO 46982 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:52504
+2021-08-09 21:33:59.910  INFO 46982 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:52504
+2021-08-09 21:34:00.658  INFO 46982 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:52504 -- CloseStatus[code=1006, reason=]
+2021-08-09 21:34:00.659  INFO 46982 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-08-09 21:34:03.617  INFO 46982 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:52384 -- CloseStatus[code=1006, reason=]
+2021-08-09 21:34:03.617  INFO 46982 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-08-09 21:34:08.088  INFO 46982 --- [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:52510
+2021-08-09 21:34:08.093  INFO 46982 --- [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:52510
