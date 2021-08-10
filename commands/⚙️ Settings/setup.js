@@ -72,7 +72,7 @@ module.exports = {
                   message.guild.channels.create(`🎵｜requests`, {
                       type: 'text', // text channel
                       rateLimitPerUser: 6, //set chat delay
-                      topic: `To request a Track, simply Type the **SONG NAME** into the Channel or the **URL** and the Bot will play it! Make sure that you are in the **right** Voice Channel (🎧｜Music)!\n\nhttps://lava.milrato.eu by: Tomato#6966`,
+                      topic: `To request a Track, simply Type the **SONG NAME** into the Channel or the **URL** and the Bot will play it! Make sure that you are in the **right** Voice Channel (🎧｜Music)!`,
                       parent: channel1.id,
                       permissionOverwrites: [{
                           id: message.guild.id,
@@ -104,7 +104,7 @@ module.exports = {
                         .setColor(ee.color)
                         .setFooter(ee.footertext, ee.footericon)
                         .setTitle("Lava Music | Currently no song is playing!")
-                        .setDescription(`Join a voice channel and enter a song name or url to play.\n[Invite Lava Music](https://lava.milrato.eu) • [Support Server](https://discord.com/invite/wvCp7q88G3)`)
+                        .setDescription(`[Support Server](https://dsc.gg/dragonmc)`)
                         .setImage("https://cdn.discordapp.com/attachments/754700756170440774/812443980293603329/lavamusic.gif")
                       //send a temp message
                       channel3.send(new MessageEmbed().setColor(ee.color).setDescription("Setting Up..")).then(msg => {
